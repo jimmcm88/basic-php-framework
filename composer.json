@@ -1,0 +1,14 @@
+{
+    "name": "jamesmcmillan/oop",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "league/route": "^3.0",
+        "zendframework/zend-diactoros": "^1.7"
+    }
+}
