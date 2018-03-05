@@ -13,6 +13,10 @@ try {
     //
 }
 
+$loader = new \App\Config\Loaders\ArrayLoader(
+    'app' =>
+);
+
 require_once __DIR__ . '/container.php';
 
 $route = $container->get(RouteCollection::class);
