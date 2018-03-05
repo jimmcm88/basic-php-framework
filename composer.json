@@ -9,6 +9,7 @@
     "require": {
         "vlucas/phpdotenv": "^2.4",
         "league/route": "^3.0",
-        "zendframework/zend-diactoros": "^1.7"
+        "zendframework/zend-diactoros": "^1.7",
+        "twig/twig": "^2.0"
     }
 }
