@@ -15,6 +15,16 @@ class ArrayLoader implements Loader
 
     public function parse()
     {
+        $parsed = [];
 
+        foreach ($this->files as $namespace => $path) {
+            try {
+                $parsed[$namespace] = require $path;
+            } catch (\Exception $e) {
+
+            }
+        }
+
+        return $parsed;
     }
 }

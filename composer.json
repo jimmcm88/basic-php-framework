@@ -13,6 +13,7 @@
         "vlucas/phpdotenv": "^2.4",
         "league/route": "^3.0",
         "zendframework/zend-diactoros": "^1.7",
-        "twig/twig": "^2.0"
+        "twig/twig": "^2.0",
+        "symfony/var-dumper": "^3.4"
     }
 }
